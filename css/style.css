@@ -1,0 +1,199 @@
+* {
+margin:0;
+padding:0;
+box-sizing: border-box;
+
+
+}
+
+
+.flex-container {
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.title {
+margin-top:50px;
+margin-bottom:20px;
+letter-spacing: 15px;
+
+
+
+}
+
+main, header {
+    background-color: #f6f6f6;
+    font-family: 'Roboto', sans-serif;
+}
+
+header p {
+margin:20px 20px;
+
+}
+
+
+.flex-container .contact li {
+list-style:none;
+display: inline-block;
+margin: 20px 20px;
+text-align: center;
+
+}
+
+.flex-container .contact li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 32px;
+
+}
+
+
+.project-title {
+align-self: start;
+margin-left:250px;
+
+
+
+}
+
+.project-title::after {
+    content: "";
+    display: block;
+    height: 5px;
+    width: 100%;
+    bottom: -1px;
+background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );; 
+}
+
+#svg-vector {
+
+margin:100px 0;
+
+}
+
+
+.flex-container .projects {
+flex-direction: row;
+flex-wrap: wrap;
+
+justify-content: center;
+
+}
+
+.projects .child {
+margin:20px 20px;
+flex-basis: 320px;
+padding:10px;
+border: 1px solid #Eeee;
+border-radius: 4px;
+box-shadow: 0 0 0 1px hsl(0deg 0% 100% / 10%) , 0 2px 4px 0 rgb(14 30 37 / 12%);
+transition: box-shadow .3s ease-out;
+background-color:#fff;
+
+}
+
+.child:hover {
+   box-shadow: 0 10px 20px rgba(0,0,0,.19),0 6px 6px rgba(0,0,0,.23);
+
+}
+
+.child p {
+padding:5px;
+margin-bottom: 30px;
+margin-top:5px;
+
+}
+
+.child img {
+width:100%;
+border:1px 1px 0 1px solid #eee;
+
+}
+
+.child h3 {
+border-top: 1px solid #eee;
+margin: 5px 0;
+padding: 5px 0;
+letter-spacing: 2px;
+
+}
+
+.project-tile img {
+width: 320px;
+height:250px;
+
+}
+
+.projects li {
+display: inline-block;
+margin: 5px 1px;
+
+}
+
+.btn {
+border: 1px solid;
+padding: 8px;
+border-radius:4px;
+cursor: pointer;
+background-color:#fff;
+}
+
+.btn:hover {
+opacity: 0.6;
+background-color: transparent;
+
+
+}
+
+.btn a {
+text-decoration: none;
+color:#000;
+
+}
+
+
+.footer{
+
+background-color:#000;
+height:80px;
+justify-content: center;
+}
+
+.footer p {
+    font-family: monospace;
+    font-style: italic;
+    font-weight: bolder;
+    color:rgb(255, 255, 255);
+    background-color:#000;
+
+
+
+}
+
+.footer a {
+text-decoration: none;
+color: #000;
+background-color:#fff;
+padding: 5px;
+font-family: monospace;
+
+}
+
+
+@media(max-width:768px){
+
+    .project-title {
+margin-left: 0;
+margin-top: 100px;
+margin-bottom: 50px;
+align-self:center;
+
+    }
+
+    header p {
+margin: 20px 50px;
+
+    }
+}
