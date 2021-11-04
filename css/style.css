@@ -12,6 +12,7 @@ display: flex;
 align-items: center;
 flex-direction: column;
 justify-content: space-between;
+
 }
 
 .title {
@@ -87,7 +88,7 @@ justify-content: space-evenly;
 
 .child {
 margin:20px 10px;
-flex-basis: 310px;
+flex-basis: 300px;
 padding:5px 15px;
 border: 1px solid #Eeee;
 border-radius: 4px;
