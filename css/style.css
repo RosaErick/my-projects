@@ -77,6 +77,7 @@ margin:100px 0;
 
 
 .flex-container .projects {
+
 flex-direction: row;
 flex-wrap: wrap;
 
@@ -86,7 +87,7 @@ justify-content: space-evenly;
 
 .child {
 margin:20px 10px;
-flex-basis: 300px;
+flex-basis: 310px;
 padding:5px 15px;
 border: 1px solid #Eeee;
 border-radius: 4px;
@@ -105,7 +106,7 @@ background-color:#fff;
 
 .child p {
 padding:5px;
-margin-bottom: 30px;
+margin-bottom: 10px;
 margin-top:5px;
 
 }
@@ -124,6 +125,7 @@ padding: 5px 0;
 letter-spacing: 2px;
 
 }
+
 
 .img-fix {
 height: 220px!important;
