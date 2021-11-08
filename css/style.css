@@ -195,7 +195,7 @@ font-family: monospace;
 
     .project-title {
 margin-left: 0;
-margin-top: 100px;
+margin-top: 60px;
 margin-bottom: 50px;
 align-self:center;
 
@@ -204,6 +204,18 @@ align-self:center;
     header p {
 margin: 20px 50px;
 text-align: center;
+
+    }
+
+    .contact {
+   
+    margin-bottom:0;
+
+
+    }
+
+    .contact li a {
+ font-size: 20px!important;
 
     }
 }
