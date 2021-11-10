@@ -36,6 +36,26 @@ margin:20px 20px;
 
 }
 
+.contact h2  {
+text-align: center;
+font-size: 0.8em;
+margin: 10px 0;
+
+
+}
+.contact h2 a {
+text-decoration: none;
+color: #000;
+border: 1px solid #000;
+padding: 5px;
+}
+
+.contact h2 a:hover {
+color:rgba(8, 234, 250, 0.781);
+border:none;
+
+}
+
 
 .flex-container .contact li {
 list-style:none;
