@@ -110,7 +110,7 @@ justify-content: space-evenly;
 
 .child {
 margin:20px 10px;
-flex-basis: 150px;
+flex-basis: 10px;
 padding:5px 15px;
 border: 1px solid #Eeee;
 border-radius: 4px;
@@ -188,26 +188,26 @@ color:#000;
 }
 
 
-.footer{
+.myfooter{
 
 background-color:#f6f6f6;
-height:45px;
-justify-content: center;
+height: 45px;
+justify-content:center;
 }
 
-.footer p {
+.myfooter p {
     font-family: monospace;
     font-style: italic;
     font-weight: bolder;
     color:rgb(255, 255, 255);
     background-color:#000;
     padding: 0 0 0 5px;
-
+    font-size:13px;
 
 
 }
 
-.footer a {
+.myfooter a {
 text-decoration: none;
 color: #000;
 background-color:#fff;
