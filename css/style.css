@@ -1,247 +1,205 @@
 * {
-margin:0;
-padding:0;
-box-sizing: border-box;
-
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
 .flex-container {
-display: flex;
-align-items: center;
-flex-direction: column;
-justify-content: center;
-
-
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .title {
-margin-top:50px;
-margin-bottom:20px;
-letter-spacing: 15px;
-align-self: center;
-
-
-
+  margin-top: 50px;
+  margin-bottom: 20px;
+  letter-spacing: 15px;
+  align-self: center;
 }
 
-main, header {
-    background-color: #f6f6f6;
-    font-family: 'Roboto', sans-serif;
+main,
+header {
+  background-color: #f6f6f6;
+  font-family: "Roboto", sans-serif;
 }
 
 header p {
-margin:20px 20px;
-
+  margin: 20px 20px;
 }
 
-.contact h2  {
-text-align: center;
-font-size: 0.8em;
-margin: 10px 0;
-
-
+.contact h2 {
+  text-align: center;
+  font-size: 0.8em;
+  margin: 10px 0;
 }
 .contact h2 a {
-text-decoration: none;
-color: #000;
-border: 1px solid #000;
-padding: 5px;
+  text-decoration: none;
+  color: #000;
+  border: 1px solid #000;
+  padding: 5px;
 }
 
 .contact h2 a:hover {
-color:rgba(8, 234, 250, 0.781);
-border:none;
-
+  color: rgba(8, 234, 250, 0.781);
+  border: none;
 }
 
-
 .flex-container .contact li {
-list-style:none;
-display: inline-block;
-margin: 20px 20px;
-text-align: center;
-
+  list-style: none;
+  display: inline-block;
+  margin: 20px 20px;
+  text-align: center;
 }
 
 .flex-container .contact li a {
-    text-decoration: none;
-    color: #000;
-    font-size: 32px;
-
+  text-decoration: none;
+  color: #000;
+  font-size: 32px;
 }
 
-
 .project-title {
-align-self: start;
-margin-left:250px;
-margin-bottom: 20px;
-margin-top:20px;
-
-
-
+  align-self: start;
+  margin-left: 250px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .project-title::after {
-    content: "";
-    display: block;
-    height: 5px;
-    width: 100%;
-    bottom: -1px;
-background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );; 
+  content: "";
+  display: block;
+  height: 5px;
+  width: 100%;
+  bottom: -1px;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(255, 94, 247, 1) 17.8%,
+    rgba(2, 245, 255, 1) 100.2%
+  );
 }
 
 #svg-vector {
-
-margin:100px 0;
-
+  margin: 100px 0;
 }
 
-
 .flex-container .projects {
+  flex-direction: row;
+  flex-wrap: wrap;
 
-flex-direction: row;
-flex-wrap: wrap;
-
-justify-content: space-evenly;
-
+  justify-content: space-evenly;
 }
 
 .child {
-margin:20px 10px;
-flex-basis: 10px;
-padding:5px 15px;
-border: 1px solid #Eeee;
-border-radius: 4px;
-box-shadow: 0 0 0 1px hsl(0deg 0% 100% / 10%) , 0 2px 4px 0 rgb(14 30 37 / 12%);
-transition: box-shadow .3s ease-out;
-background-color:#fff;
-flex-shrink: 0;
-flex-grow: 0;
-height: 100%;
-
-
-
+  margin: 20px 10px;
+  flex-basis: 10px;
+  padding: 5px 15px;
+  border: 1px solid #eeee;
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px hsl(0deg 0% 100% / 10%), 0 2px 4px 0 rgb(14 30 37 / 12%);
+  transition: box-shadow 0.3s ease-out;
+  background-color: #fff;
+  flex-shrink: 0;
+  flex-grow: 0;
+  height: 100%;
 }
 
 .child:hover {
-   box-shadow: 0 10px 20px rgba(0,0,0,.19),0 6px 6px rgba(0,0,0,.23);
-
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 .child p {
-padding:5px;
-margin-bottom: 20px;
-margin-top:5px;
-
+  padding: 5px;
+  margin-bottom: 20px;
+  margin-top: 5px;
 }
 
 .child img {
-width:300px;
-height: 200px;
-padding: 5px;
-
+  width: 300px;
+  height: 200px;
+  padding: 5px;
 }
 
 .child h3 {
-border-top: 1px solid #eee;
-margin: 5px 0;
-padding: 5px 0;
-letter-spacing: 2px;
-
+  border-top: 1px solid #eee;
+  margin: 5px 0;
+  padding: 5px 0;
+  letter-spacing: 2px;
 }
 
-
 .img-fix {
-height: 220px!important;
-
+  height: 220px !important;
 }
 
 .projects li {
-display: inline-block;
-margin: 5px 2px;
-
+  display: inline-block;
+  margin: 5px 2px;
 }
 
 .btn {
-border: 1px solid;
-padding: 10px;
-border-radius:4px;
-cursor: pointer;
-background-color:#fff;
-margin: 10px 2px;
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #fff;
+  margin: 10px 2px;
 }
 
 .btn:hover {
-opacity:0.79;
-background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(255, 94, 247, 1) 17.8%, rgba(2, 245, 255, 1) 100.2%);
-
-
-
+  opacity: 0.79;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(255, 94, 247, 1) 17.8%,
+    rgba(2, 245, 255, 1) 100.2%
+  );
 }
 
 .btn a {
-text-decoration: none;
-color:#000;
-
+  text-decoration: none;
+  color: #000;
 }
 
-
-.myfooter{
-
-background-color:#f6f6f6;
-height: 45px;
-justify-content:center;
+.myfooter {
+  background-color: #f6f6f6;
+  height: 45px;
+  justify-content: center;
 }
 
 .myfooter p {
-    font-family: monospace;
-    font-style: italic;
-    font-weight: bolder;
-    color:rgb(255, 255, 255);
-    background-color:#000;
-    padding: 0 0 0 5px;
-    font-size:13px;
-
-
+  font-family: monospace;
+  font-style: italic;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  background-color: #000;
+  padding: 0 0 0 5px;
+  font-size: 13px;
 }
 
 .myfooter a {
-text-decoration: none;
-color: #000;
-background-color:#fff;
-padding: 5px;
-font-family: monospace;
-
+  text-decoration: none;
+  color: #000;
+  background-color: #fff;
+  padding: 5px;
+  font-family: monospace;
 }
 
+@media (max-width: 768px) {
+  .project-title {
+    margin-left: 0;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    align-self: center;
+  }
 
-@media(max-width:768px){
+  header p {
+    margin: 20px 50px;
+    text-align: center;
+  }
 
-    .project-title {
-margin-left: 0;
-margin-top: 60px;
-margin-bottom: 50px;
-align-self:center;
+  .contact {
+    margin-bottom: 0;
+  }
 
-    }
-
-    header p {
-margin: 20px 50px;
-text-align: center;
-
-    }
-
-    .contact {
-   
-    margin-bottom:0;
-
-
-    }
-
-    .contact li a {
- font-size: 20px!important;
-
-    }
+  .contact li a {
+    font-size: 20px !important;
+  }
 }
